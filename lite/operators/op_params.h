@@ -1343,6 +1343,13 @@ struct MatMulParam : ParamBase {
   WITH_INT8_CONFIG
 };
 
+struct WeightedAddParam: ParamBase{
+  const lite::Tensor* X{};
+  const lite::Tensor* Y{};
+  lite::Tensor* Out{};
+  //int Axis{0};
+};
+
 struct GatherNdParam : ParamBase {
   const lite::Tensor* x{nullptr};
   const lite::Tensor* index{nullptr};

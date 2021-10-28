@@ -69,6 +69,7 @@ lite_cc_test(test_kernel_p_norm_compute SRCS p_norm_compute_test.cc)
 lite_cc_test(test_kernel_adaptive_pool_compute SRCS adaptive_pool_compute_test.cc)
 #lite_cc_test(test_kernel_crf_decoding_compute SRCS crf_decoding_compute_test.cc)
 #lite_cc_test(test_uniform_random_compute SRCS uniform_random_compute_test.cc)
+lite_cc_test(test_kernel_weighted_add_compute SRCS weighted_add_compute_test.cc)
 
 if(LITE_BUILD_EXTRA)
     lite_cc_test(test_gru_unit SRCS gru_unit_test.cc)
