@@ -59,6 +59,7 @@ add_kernel(sequence_concat_compute_x86 X86 basic SRCS sequence_concat_compute.cc
 add_kernel(var_conv_2d_compute_x86 X86 basic SRCS var_conv_2d_compute.cc)
 add_kernel(attention_padding_mask_compute_x86 X86 basic SRCS attention_padding_mask_compute.cc)
 add_kernel(sequence_arithmetic_compute_x86 X86 basic SRCS sequence_arithmetic_compute.cc)
+add_kernel(weighted_add_compute_x86 X86 basic SRCS weighted_add_compute.cc)
 
 # for content-dnn specific
 add_kernel(search_aligned_mat_mul_compute_x86 X86 extra SRCS search_aligned_mat_mul_compute.cc)
